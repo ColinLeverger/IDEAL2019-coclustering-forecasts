@@ -10,7 +10,7 @@ IDEAL 2019 Conference, Manchester.
 - Install python requirements from ```requirements.txt```,
 - Replace the string ```C:/ProgramData/Anaconda3/python.exe``` by your own
   python executable path on ```runit.sh``` file,
-- Run ```> ./runit.sh``` in a shell,
+- Run ```./runit.sh``` in a shell,
 - After execution, find and check results on ```res``` folder.
 
 Note that without Khiops software installed on your machine it is pointless to
