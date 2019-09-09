@@ -1,0 +1,35 @@
+{  
+    "om": {
+        "my_resample_rule_in_minutes": 15
+    }, 
+    "om_cpus": {
+        "my_resample_rule_in_minutes": 60
+    },  
+
+    "melb_temp": {
+        "my_resample_rule_in_minutes": -1,
+        "desc": "Daily maximum temperatures in Melbourne, Australia, 1981-1990"
+    }, 
+    "rf_stjean": {
+        "my_resample_rule_in_minutes": -1, 
+        "desc": "Quarter-monthly rainfall and river flow, Lac St-Jean Region, 1953 <U+FFFD> 1982"
+    },
+    "it": {
+        "my_resample_rule_in_minutes": -1, 
+        "desc": "Internet traffic data (in bits) from a private ISP with centres in 11 European cities. The data corresponds to a transatlantic link and was collected from 06:57 hours on 7 June to 11:17 hours on 31 July 2005. Data collected at five minute intervals."
+    },
+    "rf_niagara": {
+        "my_resample_rule_in_minutes": -1, 
+        "desc": "Monthly mean discharge in cubic mters per second for the period of record,Niagra River at Queenston, 1860-1990"
+    },    
+  
+    "aw": {
+        "my_resample_rule_in_minutes": 60,
+        "desc": "Melbourne City council dataset, walking people in a street"
+    },
+
+    "hc": {
+        "my_resample_rule_in_minutes": -1, 
+        "desc": "Kaggle dataset - https://www.kaggle.com/robikscube/hourly-energy-consumption "
+    }
+}

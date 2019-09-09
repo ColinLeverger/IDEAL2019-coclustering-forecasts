@@ -1,0 +1,23 @@
+#Khiops 9.0
+# "date_", "time_", "val_", "n_day_"
+
+Root Dictionary root(n_day_)
+{
+  Categorical n_day_; 
+  Table(secondary) secondary;
+};
+
+Dictionary secondary(n_day_)
+{ 
+  Categorical n_day_ ; 
+  Numerical time_; 
+  Numerical val_; 
+};
+
+Dictionary train
+{ 
+  Date date_; <DateFormat="YYYY-MM-DD"> 
+  Numerical time_; 
+  Numerical val_; 
+  Categorical n_day_; 
+};
