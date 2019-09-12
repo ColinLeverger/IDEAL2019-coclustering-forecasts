@@ -51,3 +51,7 @@ sorted following the column "n\_day\_".
 
 We first started the development only analysing days, thus the name of "n_day_"
 column which is not generic. 
+
+## External libraries
+
+Crafting time series clustering for performances comparisons using https://github.com/rtavenar/tslearn / see the original paper "Tavenard, Romain. "tslearn: A machine learning toolkit dedicated to time-series data." (2017)."
