@@ -5,5 +5,5 @@ statsmodels==0.9.0
 matplotlib==3.0.2
 tslearn==0.1.26
 influxdb==5.2.0
-urllib3==1.24.1
+urllib3==1.24.2
 scikit_learn==0.20.2
